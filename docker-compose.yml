@@ -8,8 +8,6 @@ services:
     container_name: eduplatform_api
     ports:
       - "8080:8080"
-    volumes:
-      - ./api:/app
     depends_on:
       - mongodb
       - redis

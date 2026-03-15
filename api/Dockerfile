@@ -10,6 +10,7 @@ RUN go mod download
 COPY . .
 
 # Build the Go app
+RUN go mod tidy
 RUN CGO_ENABLED=0 GOOS=linux go build -o main .
 
 # Run stage
