@@ -1,0 +1,15 @@
+app:
+  name: "EduPlatform"
+  domain: "eduplatform.local"
+  version: "0.1.0"
+  environment: "development"
+
+services:
+  api:
+    port: 8080
+    host: "0.0.0.0"
+  web:
+    port: 5173
+  database:
+    type: "mongodb"
+    uri: "mongodb://root:rootpassword@localhost:27017/eduplatform?authSource=admin"

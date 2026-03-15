@@ -1,0 +1,36 @@
+# MacOS
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Go
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker & databases
+mongo-data/
+redis-data/
+minio-data/
+data/
